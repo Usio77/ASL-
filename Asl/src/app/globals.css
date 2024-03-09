@@ -33,7 +33,13 @@ html {
 }
 
 
-body {
-  color: #EEE;
-  background: black;
+.body {
+  color: #515151;
+  /* background: rgb(44, 44, 44); */
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #D8D8D8 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(216 216 216 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #1f2937 var(--tw-gradient-to-position);
 }
+
